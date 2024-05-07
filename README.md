@@ -35,6 +35,7 @@ Project to manage student enrollment records at an academy. We need to store dat
 |  [![My Skills](https://skillicons.dev/icons?i=java)](https://skillicons.dev)    | JAVA 17
 | [![My Skills](https://skillicons.dev/icons?i=spring)](https://skillicons.dev)      |  SPRING BOOT 3
 | [![My Skills](https://skillicons.dev/icons?i=maven)](https://skillicons.dev)      |  MAVEN
+| [![My Skills](https://skillicons.dev/icons?i=postgresql)](https://skillicons.dev)      |  POSTGRESQL
 
  
 <h2 id="started">🚀 Getting started</h2>
@@ -53,12 +54,15 @@ gh repo clone diana180102/Backend-Academy
 
 You can use http://localhost:{port}/{path} for GET or POST requests to test locally
 
-<h2 id="post-auth-detail"> STUDENTS </h2>
+<h2 id="post-auth-detail"> STUDENTS </h2> 
+
+
 ​
 | route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /students</kbd>     | retrieves students info see 
-| <kbd>POST /students</kbd>      |  save data of students
+| <kbd>GET /students</kbd>     | retrieves course info see 
+| <kbd>POST /students</kbd>      |  save course of students
+
 
 <h3 id="get-auth-detail">GET /students</h3>
 
@@ -97,8 +101,8 @@ You can use http://localhost:{port}/{path} for GET or POST requests to test loca
 
 route               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /students</kbd>     | retrieves course info see 
-| <kbd>POST /students</kbd>      |  save course of students
+| <kbd>GET /courses</kbd>     | retrieves course info see 
+| <kbd>POST /courses</kbd>      |  save info course
 
 <h3 id="get-auth-detail">GET /course</h3>
 
